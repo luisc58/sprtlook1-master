@@ -1,0 +1,65 @@
+
+.navbar {
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 999;
+  position: fixed;
+  font-size: 16px;
+  padding: 0px 0px 0px 0px; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(11, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.logo {
+  grid-column: span 1; }
+
+.athletes {
+  margin-left: 50px;
+  padding-top: 6px;
+  grid-column-start: 2;
+  transition: color 0.1s;
+}
+
+li.athletes a:hover { color: #4D9FFE;}
+
+.coach {
+  grid-column-start: 3;
+  padding-top: 6px;
+  transition: color 0.1s;
+ }
+
+ li.coach a:hover { color: #4D9FFE;}
+
+.login {
+  grid-column: span 2;
+  grid-column-end: -1;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: white;
+  transition: border-color 0.15s;
+}
+
+.login:hover {
+  border-color: #4D9FFE;
+}
+
+li { display: inline-block; }
+
+img {
+  height: 32px;
+  width: 130px; }
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: content-menu; }
+
+a:link:active, a:visited:active {
+  color: black; }

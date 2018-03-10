@@ -1,0 +1,18 @@
+body {
+width: 100%;
+height: auto;
+font-family: 'Circular Std Black',sans-serif;
+background-color: white;
+font-size: 16px;
+letter-spacing: 0.055em;
+text-rendering: optimizeLegibility;
+overflow-x: hidden;
+}
+
+.section-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/landing.png);
+  background-position:center;
+  background-size:auto;
+  background-color: black;
+  height: 100vh;
+}

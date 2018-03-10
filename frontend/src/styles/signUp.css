@@ -1,0 +1,62 @@
+.signup-container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: repeat(6, 1fr); }
+
+.field {
+  grid-column: 1 / -1; }
+
+.dropdown {
+  grid-column: span 1;
+  grid-row-start: 5;
+  background-color: #4D9FFE;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+ /*Hiding the select arrow for firefox*/
+ -moz-appearance: none;
+ /*Hiding the select arrow for chrome*/
+ -webkit-appearance:none;
+ /*Hiding the select arrow default implementation*/
+ appearance: none;
+}
+
+.signup-bg {
+  border-radius: 5px;
+  background: white;
+  padding: 25px;
+  margin: 50px 50px 50px 0px;
+  }
+
+.text {
+  color: black;
+  font-size: 25px;
+  font-weight: lighter; }
+
+input {
+  padding-left: 6px;
+  opacity: 0.7; }
+
+p {
+  grid-column: 1 / -1;
+  justify-self: center; }
+
+.btn {
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+ }
+
+ .btn:hover {
+   background-color: #2BCD64;
+ }

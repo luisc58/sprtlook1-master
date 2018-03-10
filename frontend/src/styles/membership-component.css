@@ -1,0 +1,65 @@
+.Membership-container {
+  border-radius: 10px;
+  background: white;
+  padding: 25px;
+  font-size: 16px;
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+  -webkit-box-shadow: 2px -1px 10px -1px rgba(150,150,150,1);
+ -moz-box-shadow: 2px -1px 10px -1px rgba(150,150,150,1);
+ box-shadow: 1px -1px 8px -2px rgba(150,150,150,1);
+  }
+
+  .mem-con-top {
+    grid-row: 1;
+    line-height: 0.5;
+    padding-left: 15px;
+
+  }
+
+  .mem-con-top span {
+    font-size: 14px;
+  }
+  .mem-con-top h1 {
+    font-size: 25px;
+  }
+
+  .mem-con-top h2 {
+    font-size: 30px;
+  }
+
+  .mem-con-top h3 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .mem-con-bottom {
+    grid-row: 2;
+    padding-left: 15px;
+  }
+
+  .mem-con-bottom h3 {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .mem-btn {
+    grid-row: -1;
+    margin: 0 5em 0 5em;
+    color: white;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      opacity: 0.6;
+      margin: 1em 0;
+      padding: 0;
+  }
